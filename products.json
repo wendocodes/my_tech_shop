@@ -1,0 +1,139 @@
+[
+    {
+        "name": "iphone16",
+        "description": "A high-end smartphone with a sharp display",
+        "price": 1499,
+        "image": "img/iphone16.jpeg"
+    },
+    {
+        "name": "Lenovo Yoga Slim 7i Gen 9",
+        "description": "Intel® Core™ Ultra 7 258V Prozessor",
+        "price": 1199,        
+        "image": "img/lenovo.jpg"
+    },
+    {
+        "name": "Jabra Evolve2 75 Headset",
+        "description": "Noise-cancelling over-ear headphones",
+        "price": 199,
+        "image": "img/jabra.jpeg"
+
+    },
+    {
+        "name": "Apple Smartwatch",
+        "description": "Stylish apple smartwatch with health tracking",
+        "price": 249,
+        "image": "img/watch.jpeg"
+
+    },
+    {
+        "name": "Bose SoundLink Colour Bluetooth Speaker II",
+        "description": "Portable speaker with rich sound",
+        "price": 99,
+        "image": "img/speaker.jpeg"
+
+    },
+    {
+        "name": "Samsung Tablet",
+        "description": "High-resolution tablet for multimedia",
+        "price": 329,
+        "image": "img/tablet.jpeg"
+    },
+    {
+        "name": "Gaming Console",
+        "description": "Next-gen gaming console with immersive graphics",
+        "price": 499,
+        "image": "img/gaming_console.jpeg"
+    },
+    {
+        "name": "Nikon F Vintage Camera",
+        "description": "Nikon F Vintage Spiegelreflexkamera mit Nikkor 50mm f/2 Objektiv aufnahmebereit.",
+        "price": 599,
+        "image": "img/camera.jpeg"
+    },
+    {
+        "name": " Garmin Fitness Tracker",
+        "description": "Wearable device for tracking fitness metrics",
+        "price": 149,
+         "image": "img/fitness.jpeg"
+    },
+    {
+        "name": "E-Reader",
+        "description": "Lightweight e-reader with a paper-like display",
+        "price": 129
+    },
+    {
+        "name": "4K TV",
+        "description": "Ultra HD TV with stunning picture quality",
+        "price": 899
+    },
+    {
+        "name": "Home Assistant",
+        "description": "Voice-controlled home assistant device",
+        "price": 49
+    },
+    {
+        "name": "External Hard Drive",
+        "description": "Portable hard drive with large storage capacity",
+        "price": 89
+    },
+    {
+        "name": "Wireless Mouse",
+        "description": "Ergonomic wireless mouse with adjustable DPI",
+        "price": 39
+    },
+    {
+        "name": "Mechanical Keyboard",
+        "description": "Backlit mechanical keyboard for gaming",
+        "price": 129
+    },
+    {
+        "name": "Action Camera",
+        "description": "Waterproof action camera for extreme sports",
+        "price": 249
+    },
+    {
+        "name": "Drone",
+        "description": "Quadcopter drone with HD camera",
+        "price": 499
+    },
+    {
+        "name": "Smart Light Bulb",
+        "description": "Wi-Fi enabled light bulb with customizable colors",
+        "price": 19
+    },
+    {
+        "name": "Electric Toothbrush",
+        "description": "Rechargeable electric toothbrush with multiple modes",
+        "price": 99
+    },
+    {
+        "name": "Air Purifier",
+        "description": "HEPA air purifier for cleaner indoor air",
+        "price": 199
+    },
+    {
+        "name": "Coffee Maker",
+        "description": "Automatic coffee maker with programmable settings",
+        "price": 79
+    },
+    {
+        "name": "Smart Thermostat",
+        "description": "Energy-saving smart thermostat",
+        "price": 229
+    },
+    {
+        "name": "Electric Scooter",
+        "description": "Foldable electric scooter for urban commuting",
+        "price": 349
+    },
+    {
+        "name": "Robot Vacuum",
+        "description": "Automated vacuum cleaner with intelligent navigation",
+        "price": 299
+    },
+    {
+        "name": "Digital Picture Frame",
+        "description": "Wi-Fi enabled digital picture frame",
+        "price": 129
+    }
+]
