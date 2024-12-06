@@ -23,12 +23,20 @@ $(function () {
         }
     );
 
+    const cartDiv = $("#cartDiv");
+
     $("#viewCartButton").on("click", function () {
-        const cartDiv = $("#cartDiv");
         cartDiv.toggle();
         if (cartDiv.is(":visible")) {
             showCart();
         }
+    });
+
+    cartDiv.css({
+        "max-height": "400px", 
+        "overflow-y": "auto", 
+        "border": "1px solid #ccc",
+        "padding": "10px" 
     });
     
 });

@@ -26,7 +26,6 @@ const showProducts = function (products) {
         container.append(itemLi);
 
         if (productList[i].name === productName) {
-            console.log(productList[i].name);
             products[i].image = "img/e_reader.jpeg";
         }
     }
@@ -89,11 +88,17 @@ const showCart = function () {
 
     const cartList = document.createElement("ul");
     cartList.classList.add("cart-list");
-
+    let totalPrice = 0;
     for (let i = 0; i < cartItems.length; i++) {
         const cartItem = document.createElement("li");
         cartItem.classList.add("cart-item");
-
+        if (cartItems[i].image) {
+            const image = document.createElement("img");
+            image.src = cartItems[i].image;
+            image.alt = cartItems[i].name;
+            image.width = 100;
+            cartItem.append(image);
+        }
         const name = document.createElement("h3");
         name.textContent = cartItems[i].name;
         cartItem.append(name);
@@ -105,6 +110,7 @@ const showCart = function () {
         const price = document.createElement("p");
         price.textContent = `Price: €${cartItems[i].price}`;
         cartItem.append(price);
+        totalPrice += cartItems[i].price;
 
         const deleteButton = document.createElement("button");
         deleteButton.textContent = "Remove";
@@ -117,6 +123,17 @@ const showCart = function () {
     }
 
     cartDiv.append(cartList);
+    const totalPriceElement = document.createElement("p");
+    totalPriceElement.classList.add("total-price");
+    totalPriceElement.textContent = `Total Price: €${totalPrice.toFixed(2)}`;
+    cartDiv.append(totalPriceElement);
+
+    const checkoutButton = document.createElement("button");
+    checkoutButton.textContent = "Checkout";
+    checkoutButton.onclick = function () {
+        checkout();
+    };
+    cartDiv.append(checkoutButton);
 };
 
 
@@ -125,3 +142,16 @@ const removeFromCart = function (index) {
     localStorage.setItem("cart", JSON.stringify(cart));
     showCart();
 }
+
+const checkout = function () {
+    const cartItems = JSON.parse(localStorage.getItem("cart")) || [];
+    if (cartItems.length === 0) {
+        alert("Your cart is empty!");
+        return;
+    }
+
+    alert("Thank you for your purchase!");
+    
+    localStorage.removeItem("cart");
+    showCart();
+};
