@@ -9,14 +9,13 @@ MY_TECH_SHOP is a simple e-commerce application for browsing, selecting, and man
 5. Responsive UI: Button styles and interactive elements improve usability.
 
 ## Project Structure
-MY_TECH_SHOP/
-│
+```MY_TECH_SHOP/
 ├── index.html          # Main HTML file
-├── js/
-│   ├── electronics.js  # Handles product display and cart functionality
-│   ├── styles.js       # jQuery script for UI styling and interactions
+├── js/   
+    ├── electronics.js  # Handles product display and cart functionality
+    ├── styles.js       # jQuery script for UI styling and interactions
 ├── css/
-│   └── styles.css      # Stylesheet for the project (optional, not provided here)
+    └── styles.css      # Stylesheet for the project (optional, not provided here)
 ├── products.json       # Sample JSON file containing product data (not included in this README)
 └── README.md           # Project documentation
 
